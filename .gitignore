@@ -1,31 +1,49 @@
 # Python
 __pycache__/
-*.pyc
-*.pyo
-*.pyd
+*.py[cod]
+*$py.class
 
-# Virtual environments
+# Virtual Environments
 venv/
 .venv/
+env/
+
+# Environment Variables
+.env
 
 # Jupyter
 .ipynb_checkpoints/
 
-# OS
-.DS_Store
-Thumbs.db
+# SageMaker
+.sagemaker/
+.sagemaker-code-editor/
+
+# Streamlit
+.streamlit/secrets.toml
+
+# ChromaDB
+chroma_db/
+chromadb/
 
 # Logs
 *.log
 
-# Environment
-.env
+# OS Files
+.DS_Store
+Thumbs.db
 
-# ChromaDB
-chroma_db/
+# Build
+build/
+dist/
+*.egg-info/
 
-# Streamlit secrets
-.streamlit/secrets.toml
+# Tests
+.pytest_cache/
+.coverage
 
-# PDFs temporanei
+# IDE
+.vscode/
+.idea/
+
+# Temporary Documents
 *.pdf
